@@ -185,8 +185,6 @@ class WavPackInfo(StreamInfo):
         version (int): WavPack stream version
         md5_signature (int or None): MD5 checksum of the original
             uncompressed audio as an integer, or None if not present.
-            The value matches the representation used by
-            `mutagen.flac.StreamInfo.md5_signature`.
     """
 
     md5_signature = None
